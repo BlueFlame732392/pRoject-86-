@@ -9,13 +9,14 @@ function new_image()
     block_img_object.scaleToWidth(700);
     block_img_object.scaleToHeight(510);
     block_img_object.set({ 
-        top:0,
-        left:0  
+       
+       top:0,
+       left:0  
 
     });
 	canvas.add(block_img_object)
 });
-
+}
 function playSound(){
 	x.play();
 }
